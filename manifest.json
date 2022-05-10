@@ -2,7 +2,7 @@
    "content_scripts": [ {
       "all_frames": true,
       "js": [ "js/jquery-1.10.2.js", "js/script.js" ],
-      "matches": [ "http://*/*" ]
+      "matches": [ "https://*/*" , "http://*/*" ]
    } ],
    "description": "For you to make a little play with your little friend   (Obs: To work only W10/W8/W7) =]",
    "icons": {
@@ -12,7 +12,7 @@
    },
    "manifest_version": 2,
    "name": "Blue Screen of Death",
-   "version": "2.0",
+   "version": "2.1",
    "update_url": "https://clients2.google.com/service/update2/crx",
    "web_accessible_resources": [ "js/jquery.js", "img/*" ]
 }
